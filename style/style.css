@@ -1,14 +1,14 @@
 .header{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .left-link{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 50px;
+    
 }
 
 .left-link a{
@@ -20,7 +20,7 @@
 .right-links{
     display: flex;
     gap: 10px;
-    padding-right: 50px;
+    
 }
 
 .right-links a{
@@ -36,6 +36,7 @@ ul{
 .hero{
     background-color: #1F2937;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .hero-main-text{
@@ -47,4 +48,8 @@ ul{
 .hero-secondary-text{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-image{
+    width: 300px;
 }
