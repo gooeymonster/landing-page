@@ -1,12 +1,11 @@
 .header{
     background-color: #1F2937;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .left-link{
     display: flex;
-    justify-content: center;
     align-items: center;
     
 }
@@ -53,3 +52,29 @@ ul{
 .hero-image{
     width: 300px;
 }
+
+.hero-button{
+    background-color: #3882f6;
+    color: #ffffff;
+    border-radius: 20px;
+    border-color: #3882f6
+}
+
+.info{
+    display: flex;
+    flex: 1;
+    
+}
+
+.info-text{
+   font-weight: bold;
+   font-size: 36px;
+   color: #1F2937 
+}
+
+.info-content{
+    flex: 33.33%;
+    padding: 5px;
+    
+}
+
