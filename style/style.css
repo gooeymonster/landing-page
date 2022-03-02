@@ -61,20 +61,33 @@ ul{
 }
 
 .info{
-    display: flex;
+    
     flex: 1;
     
 }
 
 .info-text{
+    display: flex;
+    justify-content: center;
    font-weight: bold;
    font-size: 36px;
-   color: #1F2937 
+   color: #1F2937;
+   
 }
 
-.info-content{
-    flex: 33.33%;
-    padding: 5px;
+.info-images{
+    display: flex;
     
 }
 
+.image{
+    flex: 25%
+    
+}
+
+.info-image{
+    width: 75%;
+    border: 5px solid #555;
+    border-radius: 50px;
+    border-color: #3882f6;
+}
